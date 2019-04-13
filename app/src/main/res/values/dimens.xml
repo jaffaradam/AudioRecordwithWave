@@ -1,0 +1,15 @@
+<resources>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="bottom_sheet_header_title">16sp</dimen>
+    <dimen name="activity_padding_large">30dp</dimen>
+    <dimen name="bottom_sheet_padding_top">20dp</dimen>
+    <dimen name="bottom_sheet_header_icon">18dp</dimen>
+    <dimen name="padding_half">8dp</dimen>
+    <dimen name="icon_bottom_sheet_close">20dp</dimen>
+</resources>

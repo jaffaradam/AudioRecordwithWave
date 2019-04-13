@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.axet:libopus:1.2-3@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../.gradle/caches/transforms-1/files-1.1/libopus-1.2-3.aar/28621863f8671f158e3c2b8718e3952b/res" />
+      <root url="jar://$PROJECT_DIR$/../../../.gradle/caches/transforms-1/files-1.1/libopus-1.2-3.aar/28621863f8671f158e3c2b8718e3952b/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

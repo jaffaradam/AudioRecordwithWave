@@ -1,0 +1,46 @@
+<resources>
+
+    <style name="RecThemeLight" parent="AppThemeLight">
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="recColor">@color/colorPrimaryDark</item>
+        <item name="cutColor">#b1b1b1</item>
+    </style>
+
+    <style name="RecThemeDark" parent="AppThemeDark">
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="recColor">#c6c6c6</item>
+        <item name="cutColor">#0e0e0e</item>
+    </style>
+
+    <style name="RecThemeLight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="RecThemeDark.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Animation.MyCustomAnimation" parent="android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_slide_from_bottom</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_stay</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_stay</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_slide_to_bottom</item>
+    </style>
+
+    <style name="Theme.MyAnimTheme" parent="android:style/Animation.Activity">
+        <item name="android:windowAnimationStyle">@style/Animation.MyCustomAnimation</item>
+    </style>
+
+    <!--<item name="android:lineSpacingExtra">10sp</item>-->
+    <style name="ButtonLargePos">
+        <item name="colorButtonNormal">?colorPrimary</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+        <item name="android:background">?colorPrimary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    
+</resources>

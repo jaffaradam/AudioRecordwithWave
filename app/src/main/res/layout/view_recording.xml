@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/llayout"
+    android:layout_height="match_parent">
+
+    <com.github.axet.androidlibrary.widgets.EqualLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/equalizer">
+
+        <ImageButton
+            android:id="@+id/recording_cancel"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/roundButton"
+            android:contentDescription="@string/cancel_button"
+            android:gravity="center"
+            android:padding="10dp"
+            android:src="@drawable/ic_close_24dp"
+            android:tint="@android:color/white" />
+
+        <ImageButton
+            android:id="@+id/recording_pause"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/roundButton"
+            android:contentDescription="@string/pause_button"
+            android:padding="10dp"
+            android:src="@drawable/ic_pause_black_24dp"
+            android:tint="@android:color/white" />
+
+        <ImageButton
+            android:id="@+id/recording_done"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/roundButton"
+            android:contentDescription="@string/stop_button"
+            android:padding="10dp"
+            android:src="@drawable/ic_done_black_24dp"
+            android:tint="@android:color/white" />
+
+    </com.github.axet.androidlibrary.widgets.EqualLinearLayout>
+    <com.github.axet.audiolibrary.widgets.PitchView
+        android:id="@+id/recording_pitch"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_above="@+id/equalizer"
+        android:padding="5dp"
+        app:cutColor="?attr/cutColor"
+        app:recColor="?attr/recColor"
+        android:layout_marginBottom="20dp"/>
+</RelativeLayout>

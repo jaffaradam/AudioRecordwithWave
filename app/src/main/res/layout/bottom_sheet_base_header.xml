@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:paddingLeft="@dimen/activity_padding_large"
+    android:paddingTop="@dimen/bottom_sheet_padding_top"
+    android:paddingRight="@dimen/activity_padding_large"
+    android:paddingBottom="@dimen/bottom_sheet_padding_top">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_centerVertical="true"
+        android:layout_width="@dimen/bottom_sheet_header_icon"
+        android:layout_height="@dimen/bottom_sheet_header_icon" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_half"
+        android:layout_toRightOf="@id/icon"
+        android:fontFamily="sans-serif-medium"
+        android:letterSpacing="-0.02"
+        android:lineSpacingExtra="3sp"
+        android:layout_centerVertical="true"
+        android:textColor="@color/bottom_sheet_header_title"
+        android:textSize="@dimen/bottom_sheet_header_title"
+        android:textStyle="normal" />
+
+    <ImageView android:id="@+id/icon_close"
+        android:layout_width="@dimen/icon_bottom_sheet_close"
+        android:layout_height="@dimen/icon_bottom_sheet_close"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_close_24dp" />
+
+</RelativeLayout>
